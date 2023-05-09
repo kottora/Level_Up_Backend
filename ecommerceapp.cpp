@@ -191,7 +191,7 @@ void Userinput()
 	};
 
 	string commandWithArgs, word;
-	while (true)
+	while (cin.eof() != 1)
 	{
 		//
 		cout << "LevelUp:~$ ";
